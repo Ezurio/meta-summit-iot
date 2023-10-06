@@ -35,6 +35,6 @@ BBLAYERS = " \
   \
   ${BSPDIR}/sources/meta-java \
   \
-  ${BSPDIR}/sources/meta-summit-radio \
+  ${BSPDIR}/sources/meta-summit-radio/meta-summit-radio \
   ${BSPDIR}/sources/meta-summit-iot \
 "
