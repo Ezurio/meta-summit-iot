@@ -1,10 +1,12 @@
 SUMMARY = "Summit Greengrass Support"
 DESCRIPTION = "Support for Greengrass V2 on Summit SOM 8M Plus"
 PR = "r1"
-LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
-SRC_URI += "file://greengrass.service"
+LICENSE = "Ezurio"
+NO_GENERIC_LICENSE[Ezurio] = "LICENSE.ezurio"
+LIC_FILES_CHKSUM = "file://LICENSE.ezurio;md5=fd3dd0630b215465b6f50540642d5b93"
+
+SRC_URI += "file://greengrass.service file://LICENSE.ezurio"
 
 S = "${WORKDIR}"
 

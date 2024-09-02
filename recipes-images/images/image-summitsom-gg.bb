@@ -1,5 +1,10 @@
 DESCRIPTION = "Summit SOM AWS Greengrass Image"
 
+FILESEXTRAPATHS:append := "\
+${TOPDIR}/../sources/meta-summit-som/recipes-summit/images/files/nomcu:\
+${TOPDIR}/../sources/meta-summit-som/recipes-summit/images/files:\
+"
+
 inherit image-summitsom-gen image-summitsom-sd-gen image-summitsom-swu-gen
 
 CORE_IMAGE_EXTRA_INSTALL += "\
@@ -23,4 +28,4 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     python3-pyudev \
     python3-requests \
     python3-spidev \
-	"
+    "
