@@ -10,3 +10,13 @@ BB_DISKMON_DIRS ??= "\
     HALT,${DL_DIR},100M,1K \
     HALT,${SSTATE_DIR},100M,1K \
     HALT,/tmp,10M,1K"
+
+BB_NICE_LEVEL ??= "10"
+
+PACKAGECONFIG:append:pn-qemu-system-native = " sdl"
+
+IMAGE_FEATURES ?= "debug-tweaks"
+USER_CLASSES ?= "buildstats"
+
+CONF_VERSION = "2"
+
