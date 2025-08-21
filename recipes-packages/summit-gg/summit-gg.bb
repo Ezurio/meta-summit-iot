@@ -6,9 +6,12 @@ LICENSE = "Ezurio"
 NO_GENERIC_LICENSE[Ezurio] = "LICENSE.ezurio"
 LIC_FILES_CHKSUM = "file://LICENSE.ezurio;md5=fd3dd0630b215465b6f50540642d5b93"
 
-SRC_URI += "file://greengrass.service file://LICENSE.ezurio"
+SRC_URI += "\
+    file://greengrass.service;subdir=src \
+    file://LICENSE.ezurio;subdir=src \
+    "
 
-S = "${WORKDIR}"
+S = "${WORKDIR}/src"
 
 FILES:${PN} += "${systemd_system_unitdir}"
 
