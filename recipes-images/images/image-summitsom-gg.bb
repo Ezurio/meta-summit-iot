@@ -8,7 +8,7 @@ ${TOPDIR}/../sources/meta-summit-som/recipes-summit/images/files:\
 inherit image-summitsom-gen image-summitsom-sd-gen image-summitsom-swu-gen
 
 CORE_IMAGE_EXTRA_INSTALL += "\
-    ${IMAGE_INSTALL_BASIC} \
+    packagegroup-summit-basic \
     libp11 \
     opensc \
     procps \
