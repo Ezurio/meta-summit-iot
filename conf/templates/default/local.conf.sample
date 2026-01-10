@@ -13,7 +13,6 @@ BB_DISKMON_DIRS ??= "\
 
 BB_NICE_LEVEL ??= "10"
 
-IMAGE_FEATURES ?= "debug-tweaks"
 USER_CLASSES ?= "buildstats"
 
 CONF_VERSION = "2"
