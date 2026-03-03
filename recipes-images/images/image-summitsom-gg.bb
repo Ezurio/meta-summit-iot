@@ -13,8 +13,7 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     opensc \
     procps \
     sudo \
-    openjre-8 \
-    summit-gg \
+    greengrass-bin \
     python3 \
     python3-can \
     python3-core \
