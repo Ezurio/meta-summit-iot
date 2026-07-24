@@ -20,7 +20,6 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     python3-daemon \
     python3-dbus \
     python3-libconf \
-    python3-pathtools3 \
     python3-pyaudio \
     python3-pyserial \
     python3-psutil \
