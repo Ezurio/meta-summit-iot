@@ -9,6 +9,8 @@ inherit image-summitsom-gen image-summitsom-sd-gen image-summitsom-swu-gen
 
 CORE_IMAGE_EXTRA_INSTALL += "\
     packagegroup-summit-basic \
+    packagegroup-summit-dvk \
+    packagegroup-summit-diag \
     libp11 \
     opensc \
     procps \
